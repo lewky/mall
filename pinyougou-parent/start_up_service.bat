@@ -1,0 +1,3 @@
+@echo start up services...
+cd pinyougou-sellergoods-service
+start "pinyougou-sellergoods-service" cmd /k "mvn tomcat7:run"

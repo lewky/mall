@@ -1,0 +1,3 @@
+@echo start up webs...
+cd pinyougou-manager-web
+start "pinyougou-manager-web" cmd /k "mvn tomcat7:run"
